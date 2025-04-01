@@ -1,0 +1,20 @@
+Test Case ID,EPIC ID,Test Scenario,Precondition,Test Condition,Test Case Steps,Test Data,Expected Result
+Edu_1,EPIC 01,To verify the URL for Demo_blaze on Google browser,1.The user is on webBrowser,To validate if the user is able to access Demo_blaze Website in the browser,"1. Open the Google browser
+2.Enter the URL",https://www.demoblaze.com/,"It should navigate to Google homepage.
+It should generate the list of Related Sites"
+Edu_2,,To verify whether the site displays Greetings to the user.,1.The user is on webBrowser and giving the greetings.,"To validate that the site displays 
+Welcome Greeting to the user
+","1. Open the Google browser
+2.Enter the URL                               3.Greetings to the user.",https://www.demoblaze.com/,"It should navigate to Google homepage.
+It should generate the list of Related Sites                                   It should display ""Welcome to Demo_blaze""                                        "
+Edu_3,,To verify that the user redirects to the sign up page,"1.The URL has to be Valid and 
+exist on browser                                  2.The URL has direct to sign up page.                                 ","To validate the sucessful Navigation
+ to Demo_blaze Home Page","1. Open the browser
+2.Enter the URL
+3.click on the site link",REGISTRATION PROCESS,"It should navigate to Google homepage.
+It should generate the list of Related Sites                                   It should navigate to Demo_blaze Homepage                                       "
+Edu_4,,To verify  that the user enters the valid user name,"1.The URL has to be Valid and 
+exist on browser                                  2.The URL has direct to sign up page. 3. Name field has to be visible and editable.","To validate the name field ,which accepts the name entered by the user","1. Open the browser
+2.Enter the URL
+3.click on the site link                           4.Enter the valid name.",REGISTRATION PROCESS,"It should navigate to Google homepage.
+It should generate the list of Related Sites                                   It should navigate to Demo_blaze Homepage                It should display the name entered                                     "

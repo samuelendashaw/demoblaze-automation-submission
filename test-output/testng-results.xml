@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T18:34:13 EDT" name="CrossBrowserSuite" finished-at="2025-04-01T18:37:26 EDT" duration-ms="192300">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-01T18:34:13 EDT" name="FirefoxTests" finished-at="2025-04-01T18:37:14 EDT" duration-ms="181048">
+      <class name="com.edureka.selenium.demoblaze.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:34:13 EDT" name="setUpClass" finished-at="2025-04-01T18:34:16 EDT" duration-ms="2546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@609db43b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:34:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:37 EDT" duration-ms="21568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User views the About Us modal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["About Us Modal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:34:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:58 EDT" duration-ms="20576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User adds a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:34:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:35:18 EDT" duration-ms="19869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User submits a contact form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact form functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:35:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:03 EDT" duration-ms="45209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login test using data from Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:36:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:20 EDT" duration-ms="16766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:36:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:37 EDT" duration-ms="16590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:36:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:04 EDT" duration-ms="27824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User places an order successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Order Placement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:37:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:14 EDT" duration-ms="9814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@2df3b89c]" started-at="2025-04-01T18:37:14 EDT" name="tearDownClass" finished-at="2025-04-01T18:37:14 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.edureka.selenium.demoblaze.runner.TestRunner -->
+    </test> <!-- FirefoxTests -->
+    <test started-at="2025-04-01T18:34:13 EDT" name="ChromeTests" finished-at="2025-04-01T18:37:25 EDT" duration-ms="192271">
+      <class name="com.edureka.selenium.demoblaze.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:34:13 EDT" name="setUpClass" finished-at="2025-04-01T18:34:16 EDT" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c947bc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:34:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:37 EDT" duration-ms="21632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User views the About Us modal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["About Us Modal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:34:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:59 EDT" duration-ms="21332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User adds a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:34:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:35:18 EDT" duration-ms="19359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User submits a contact form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact form functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:35:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:03 EDT" duration-ms="44899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login test using data from Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:36:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:24 EDT" duration-ms="21301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:36:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:47 EDT" duration-ms="22427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:36:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:14 EDT" duration-ms="26907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User places an order successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Order Placement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:37:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:25 EDT" duration-ms="11688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@233795b6]" started-at="2025-04-01T18:37:25 EDT" name="tearDownClass" finished-at="2025-04-01T18:37:25 EDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.edureka.selenium.demoblaze.runner.TestRunner -->
+    </test> <!-- ChromeTests -->
+    <test started-at="2025-04-01T18:34:13 EDT" name="EdgeTests" finished-at="2025-04-01T18:37:26 EDT" duration-ms="192300">
+      <class name="com.edureka.selenium.demoblaze.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:34:13 EDT" name="setUpClass" finished-at="2025-04-01T18:34:16 EDT" duration-ms="2527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55f616cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:34:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:37 EDT" duration-ms="21568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User views the About Us modal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["About Us Modal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:34:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:34:58 EDT" duration-ms="21026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User adds a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:34:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:35:17 EDT" duration-ms="18361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User submits a contact form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact form functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:35:17 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:14 EDT" duration-ms="57601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login test using data from Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:36:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:34 EDT" duration-ms="19140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:36:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:36:53 EDT" duration-ms="19442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fails to log in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:36:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:13 EDT" duration-ms="20357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User places an order successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Order Placement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:37:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T18:37:25 EDT" duration-ms="12032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.edureka.selenium.demoblaze.runner.TestRunner@20d525]" started-at="2025-04-01T18:37:25 EDT" name="tearDownClass" finished-at="2025-04-01T18:37:26 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.edureka.selenium.demoblaze.runner.TestRunner -->
+    </test> <!-- EdgeTests -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
